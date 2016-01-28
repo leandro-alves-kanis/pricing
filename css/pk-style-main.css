@@ -1,0 +1,62 @@
+/*
+ * common devices css
+ */
+
+/* typography */
+* {
+    text-rendering: optimizelegibility;
+    font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+}
+
+section {padding: 80px 0;}
+header {padding: 20px 0 40px;}
+
+li {list-style-type: none;}
+
+h1, h2, h3, p {font-family: museo-sans-rounded, arial;}
+h1, h3 {font-weight: 900;text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2);}
+h3 {color: #FFF; font-size: 28px; line-height: 1.2em;}
+h2, .pk-quote p {font-weight: 700;}
+p {color: #FFF; font-size: 16px; font-weight: normal;}
+strong{color: #fff568;}
+
+/* layout */
+
+.pk-header{
+	background-image: url("../imgs/world-bg-low.jpg");
+	background-color: #FFF;
+	background-repeat: no-repeat;
+	background-position: top;
+	overflow: hidden;
+}
+
+.pk-quote {
+	text-align: center;
+	background-color: #ecf2f6;
+}
+.pk-quote p{color: #a0a0a0;}
+
+.logo-playkids {margin: 35px 0;}
+
+.btn-pk {
+	background-color: #7d32a4;
+	border-color: #7d32a4;
+	font-size: 20px;
+	font-family: museo-sans-rounded, arial, san-serif;
+	padding-top: 20px; 
+	padding-bottom: 20px; 
+	margin-top: 18px; 
+	margin-bottom: 18px;
+	box-shadow: 0px 4px 1px rgba(125,50,164, 0.2);
+    letter-spacing: 0.1em;
+}
+
+.btn-pk:hover, .btn-pk:active {
+	background-color: #73308b;
+	border-color: #73308b;
+	box-shadow: 0px 4px 1px rgba(125,50,164, 0.2);
+}
