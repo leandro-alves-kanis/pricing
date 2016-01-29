@@ -11,27 +11,31 @@
     -o-font-smoothing: antialiased;
     -ms-font-smoothing: antialiased;
 }
+body {
+	background-color: #edf2f6;
+}
 
-section {padding: 80px 0;}
-header {padding: 20px 0 40px;}
+section {
+    margin: 55px 0;}
+header {padding: 20px 0;}
 
-li {list-style-type: none;}
-
-h1, h2, h3, p {font-family: museo-sans-rounded, arial;}
-h1, h3 {font-weight: 900;text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2);}
-h3 {color: #FFF; font-size: 28px; line-height: 1.2em;}
-h2, .pk-quote p {font-weight: 700;}
-p {color: #FFF; font-size: 16px; font-weight: normal;}
+h1, h2, h3, p {font-family: museo-sans-rounded, arial; color: #7d32a4;  line-height: 1.2em;}
+h1, h2 {font-weight: 900;}
+h1{
+    font-size: 28px;
+    text-align: center;}
+h3 {font-weight: 700;}
+h4{
+    font-weight: normal;
+    color: #37c887;}
+p {font-size: 15px; font-weight: normal;}
 strong{color: #fff568;}
 
 /* layout */
 
 .pk-header{
-	background-image: url("../imgs/world-bg-low.jpg");
-	background-color: #FFF;
-	background-repeat: no-repeat;
-	background-position: top;
 	overflow: hidden;
+	padding: 55px 0 0 0;
 }
 
 .pk-quote {
@@ -40,19 +44,19 @@ strong{color: #fff568;}
 }
 .pk-quote p{color: #a0a0a0;}
 
-.logo-playkids {margin: 35px 0;}
+.logo-playkids {}
 
 .btn-pk {
 	background-color: #7d32a4;
 	border-color: #7d32a4;
-	font-size: 20px;
-	font-family: museo-sans-rounded, arial, san-serif;
-	padding-top: 20px; 
-	padding-bottom: 20px; 
+	font-size: 19px;
+	font-family: museo-sans-rounded, arial, sans-serif;
+	padding-top: 18px; 
+	padding-bottom: 16px; 
 	margin-top: 18px; 
-	margin-bottom: 18px;
+	margin-bottom: 20px;
 	box-shadow: 0px 4px 1px rgba(125,50,164, 0.2);
-    letter-spacing: 0.1em;
+	letter-spacing: 0.1em;
 }
 
 .btn-pk:hover, .btn-pk:active {
@@ -60,3 +64,65 @@ strong{color: #fff568;}
 	border-color: #73308b;
 	box-shadow: 0px 4px 1px rgba(125,50,164, 0.2);
 }
+
+.pk-price .btn-pk {
+	width: 100%;
+	margin-bottom: 0;
+}
+
+.pk-price {
+    text-align: center;
+    background-color: #FFF;
+    border-radius: 16px 16px 16px 16px;
+	-moz-border-radius: 16px 16px 16px 16px;
+	-webkit-border-radius: 16px 16px 16px 16px;
+	border: 0px solid #000000;
+} 
+.pk-price h1{} 
+.pk-price h2{
+    background-color: #37c887;
+    color: #FFF;
+    text-align: center;
+    font-size: 19px;
+    padding: 20px;
+    margin-bottom: 0;
+    border-radius: 16px 16px 0px 0px;
+	-moz-border-radius: 16px 16px 0px 0px;
+	-webkit-border-radius: 16px 16px 0px 0px;;
+} 
+
+.pk-price h3{
+    font-size: 15px;
+    margin-top: 0;} 
+.pk-price h4{
+    margin-top: 0;} 
+.pk-price li p{;
+    font-weight: 700;
+
+}
+.mensalidade {
+    font-weight: 900;
+    font-size: 46px;
+    margin-bottom: 0;
+} 
+.pk-price-inner {
+    padding: 32px 43px 43px;
+
+}
+.mensalidade small{
+    font-size: 23px;
+    font-weight: normal;
+}
+.pk-price ul {
+    text-align: left;
+    list-style-image: url('../imgs/list-marker.png');
+}
+
+.pk-price li {
+
+}
+
+hr {
+    margin-top: 33px;
+    margin-bottom: 33px;
+    border-top-width: 2px;}
