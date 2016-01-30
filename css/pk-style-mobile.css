@@ -1,3 +1,71 @@
-/*
- * mobile css
- */
+/* * mobile css */
+/* * common devices css *//* typography */* {}
+body {}
+section {
+	padding-bottom: 50px;}
+header {}
+h1, h2, h3, p {}
+h1, h2 {}
+h1{
+	font-size: 24px;
+	padding: 0px 44px;}
+h3 {}
+h4{}
+p {}
+strong{}
+h5 {}
+/* layout */
+.pk-header{
+	padding-top: 0;
+	padding-bottom: 0;}
+.pk-logo {
+	text-align: center;
+	margin-top: 20px;}
+.pk-quote p{}
+.logo-playkids {}
+.btn-pk {}
+.btn-pk:hover, .btn-pk:active {}
+.btn-pk-green {}
+.btn-pk-green:hover, .btn-pk-green:active {}
+.pk-price .btn-pk {}
+.pk-price {
+	margin-top: 30px;}
+.pk-price h1{}
+.pk-price h2{}
+.pk-price h3{}
+.pk-price h4{}
+.pk-price li p{}
+.mensalidade {}
+.pk-price-inner {}
+.pk-price-destaque .pk-price-inner {
+	padding-bottom: 42px;}
+.mensalidade small{}
+.pk-price ul {}
+.pk-price-destaque {
+	margin-top: 10px;}
+.pk-price-destaque h2:before {
+	top: -42px;
+	width: 80%;
+	background-position: 64%;
+	background-size: 60%;}
+.pk-price-destaque:before {
+	top: -30px;
+	right: 0px;
+	font-size: 14px;
+	padding: 22px 10px;
+	width: 65px;
+	height: 70px;
+	background-size: 100%;}
+.pk-price-destaque h2 {
+	padding: 20px 0;}
+hr {}
+.safe {
+	text-align: center;
+	background: #FFF;
+	padding: 20px;
+	margin-top: 0;
+}
+.glyphicon-lock {}
+.glyphicon-lock:before {}
+.safe span {}
+.pk-header h1, .pk-header h3 {}

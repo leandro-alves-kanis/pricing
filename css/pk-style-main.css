@@ -145,7 +145,7 @@ h5 {
 .pk-price-destaque {
     border: 3px solid #7d32a4;
     margin-top: -34px;
-    box-shadow: 0px 19px 67px -26px rgba(0,0,0,0.75);
+    box-shadow: 0px 9px 28px 0px rgba(0,0,0,0.5);
 }
 
 .pk-price-destaque h2:before {

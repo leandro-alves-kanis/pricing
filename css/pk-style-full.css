@@ -1,3 +1,47 @@
 /*
  * screen css
  */
+/* * mobile css */
+/* * common devices css *//* typography */* {}
+body {}
+section {}
+header {}
+h1, h2, h3, p {}
+h1, h2 {}
+h1{}
+h3 {}
+h4{}
+p {}
+strong{}
+h5 {}
+/* layout */
+.pk-header{}
+.pk-quote {}
+.pk-quote p{}
+.logo-playkids {}
+.btn-pk {}
+.btn-pk:hover, .btn-pk:active {}
+.btn-pk-green {}
+.btn-pk-green:hover, .btn-pk-green:active {}
+.pk-price .btn-pk {}
+.pk-price {}
+.pk-price h1{}
+.pk-price h2{}
+.pk-price h3{}
+.pk-price h4{}
+.pk-price li p{}
+.mensalidade {}
+.pk-price-inner {}
+.pk-price-destaque .pk-price-inner {}
+.mensalidade small{}
+.pk-price ul {}
+.pk-price-destaque {}
+.pk-price-destaque h2:before {}
+.pk-price-destaque:before {}
+.pk-price-destaque h2 {}
+hr {}
+.safe {}
+.glyphicon-lock {}
+.glyphicon-lock:before {}
+.safe span {}
+.pk-header h1, .pk-header h3 {}
