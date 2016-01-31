@@ -31,8 +31,10 @@ h5 {}
 .pk-price h4{}
 .pk-price li p{}
 .mensalidade {}
-.pk-price-inner {}
-.pk-price-destaque .pk-price-inner {}
+.pk-price-inner {
+	padding: 32px 38px 43px;}
+.pk-price-destaque .pk-price-inner {
+	padding: 32px 28px 60px;}
 .mensalidade small{}
 .pk-price ul {}
 .pk-price-destaque {}
