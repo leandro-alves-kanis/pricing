@@ -35,12 +35,12 @@ label {
     display: block;
     text-align: left;
 }
-input[type="email"], input[type="password"] {
+input[type="email"], input[type="password"],  input[type="text"] {
     padding: 27px 20px;
     border-radius: 0;
     font-size: 16px;
 }
-input[type="email"]:focus, input[type="password"]:focus{
+input[type="email"]:focus, input[type="password"]:focus,  input[type="text"]:focus{
 	box-shadow: none;
 	border-color: #37c885;
 	color: #37c885;
@@ -64,3 +64,5 @@ input[type="email"]:focus, input[type="password"]:focus{
 
 header .logo-playkids {display: inline-block;}
 footer .logo-playkids {display: none;}
+
+form .glyphicon-lock {top: -40px;;left: 152px;}
